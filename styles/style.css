@@ -16,26 +16,24 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #f2f2f2;
 
   }
 
-  .logo_place_header {
+  .logo {
     width: 183px;
     height: 32px;
-    left: 64px;
-    top: 30px;
-    position: absolute;
+    margin-left: 64px;
+    margin-top: 30px;
   }
 
   .header__title {
-    left: 64px;
+    margin-left: 64px;
     width: 730px;
     font-size: 102px;
     line-height: 96px;
     font-weight: bold;
-    position: absolute;
     margin-top: auto;
     margin-bottom: auto;
     }
@@ -66,7 +64,7 @@
     overflow: hidden;
   }
 
-  .header__image {
+  .header__main-illustration {
      width: 765px;
     height: 608px;
     position: absolute;
@@ -80,25 +78,19 @@
   box-sizing: border-box;
   flex-direction: row;
   justify-content: center;
-  margin: 100px 175px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 
 }
 
-.two-columns__description {
+.two-columns {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  
+  width: 80%;
 }
 
 .two-columns__brief {
-  width: 175px;
-  font-size:18px;
-  line-height:1.2px;
-  font-weight:normal;
-}
-
-.two-columns__title {
   color: #2f80ed;
   width: 175px;
   line-height: 1.2;
@@ -108,7 +100,7 @@
   text-align: initial;
 }
 
-.two-columns_main-text {
+.two-columns__main-text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -121,7 +113,7 @@
   margin: 0;
 }
 
-.two-columns_span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 500;
@@ -161,7 +153,6 @@
   }
 
   .table__heading {
-    bottom: 20px;
     line-height: 1.15;
     font-size: 24px;
     font-weight: 500;
@@ -180,17 +171,19 @@
   background-image: url(" ../images/feynman.png");
   background-color: #f2f2f2;
   background-repeat: no-repeat;
-  height: 790px;
+  min-height: 790px;
   background-position: left bottom;
   margin-top: 100px;
 }
 
 
   .feynman__title {
+    padding-top: 100px;
     margin: auto;
     width: min-content;
     line-height: 1.15;
     font-size: 120px;
+    font-weight: 500;
     text-align: center;
   }
 
@@ -231,7 +224,7 @@
 
   }
 
-.section-title_theme_dark {
+.table-title_theme_dark {
     width: 60%;
     text-align: center;
     margin: auto;
@@ -240,10 +233,10 @@
     color: white;
     line-height: 69px;
     font-size: 60px;
-    font-weight: semi bold;
+    font-weight: 500;
   }
 
-  .section-subtitle_theme_dark{
+  .table-subtitle_theme_dark{
     width: 60%;
     text-align: center;
     margin: auto;
@@ -258,13 +251,6 @@
     padding-bottom: 90px;
     color: white;    
   
-  }
-
-  .table__heading_theme_dark {
-    bottom: 20px;
-    line-height: 1.15;
-    font-size: 24px;
-    font-weight: semi bold;
   }
 
   .table__cell_theme_dark {
@@ -295,12 +281,14 @@
     min-height: 250px;
   }
 
-  .footer__content_copyright {
-    position: relative;
-    flex-basis: 711px;
-    width: 50%;
+  .footer__column {
     display: flex;
     flex-direction: column;
+  }
+
+  .footer__column_content_copyright {
+    position: relative;
+    flex-basis: 711px;
     justify-content: space-between;
   }
 
@@ -315,19 +303,7 @@
   .logo_place_footer {
     width: 183px;
     height: 35px;
-  }
-  
-  .footer__column {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    place-content: space-between;
-    width: 50%;
-  }
-
-  .footer__column_content {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0;
   }
 
   .footer__column_content_info {
@@ -335,9 +311,8 @@
     flex-direction: column;
   } 
 
-  .footer__content_info {
+  .footer__column_content_info {
     list-style-type: none;
-    padding-inline-start: 0;
   }
 
   .footer__column-heading {
@@ -351,14 +326,20 @@
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    text-decoration: none;
     color: white; 
-
+    list-style: none;
+    padding-inline-start: 0;
+    margin-top: 0
   }
 
-  .content_social {
-    list-style-type:none;
+  .footer__column-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer__column_content_social {
     padding-inline-start: 0;
+    list-style: none;
   }
 
   .footer__social-icon {
