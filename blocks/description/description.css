@@ -1,0 +1,45 @@
+.description {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  }
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  }
+
+.two-columns__brief {
+  color: #2f80ed;
+  max-width: 175px;
+  width: 100%;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  text-align: initial;
+  }
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 80%;
+  max-min-width: 784px;
+  }
+
+.two-columns__paragraph {
+  padding-bottom: 30px;
+  margin: 0;
+  }
+
+.two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
+  }
