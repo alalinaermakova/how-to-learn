@@ -5,10 +5,10 @@
   background-repeat: no-repeat;
   min-height: 790px;
   background-position: left bottom;
+  padding-top: 100px;
   }
 
   .feynman__title {
-    padding-top: 100px;
     margin: auto;
     width: min-content;
     line-height: 1.15;

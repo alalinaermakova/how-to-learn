@@ -1,0 +1,14 @@
+.table_theme_dark {
+    position: relative;
+    padding-bottom: 90px;
+    color: white;    
+  }
+
+  .table__cell_theme_dark {
+    color: white;
+    width: 200px;
+    margin-top: 80px;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }

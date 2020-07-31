@@ -6,31 +6,13 @@
   margin-bottom: 90px;
   }
 
-  .kaufman__image {
+  .kaufman__triangle {
     position: absolute;
+    background-image: url(../../images/kaufman-triangle.svg);
+    background-size: contain;;
     height: 877px;
     width: 877px;
-    overflow: hidden;
     right: 0;
     margin-right: -210px;
     top: 0;
-  }
-
-.section-title_theme_dark {
-    padding-top: 90px;
-  }
-
-  .table_theme_dark {
-    position: relative;
-    padding-bottom: 90px;
-    color: white;    
-  }
-
-  .table__cell_theme_dark {
-    color: white;
-    width: 200px;
-    margin-top: 80px;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: normal;
   }

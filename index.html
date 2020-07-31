@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./styles/normalize.css">
-	<link rel="stylesheet" href="./styles/index.css">
+	<link rel="stylesheet" href="./blocks/vendor/normalize.css">
+	<link rel="stylesheet" href="./pages/index.css">
 	<title>Научиться учиться</title>
 </head>
 <body>
 	<div class="page">
 		<header class="header">
-			<img src="./images/logo_place_header.svg" alt="logo" class="logo logo_place_header">
+			<img src="./images/logo_place_header.svg" alt="лого" class="logo logo_place_header">
 				<div class="header__square-pic rotation"></div>
-				<img src="./images/header-image.png" alt="image" class="header__main-illustration">
+				<img src="./images/header-image.png" alt="картина опять двойка" class="header__main-illustration">
 				<h1 class="header__title">Научиться учиться</h1>
-				<p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" class="header__link"> Узнать<span>&#10230;</span></a></p>
+				<p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a href="#" class="header__link"> Узнать &#10230;</a></p>
 		</header>
 		<main class="content">
 			<section class="description">
@@ -29,31 +29,31 @@
 			</section>
 			<section class="techniques">
 				<h2 class="section-title">Техники обучения</h2>
-				<h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+				<p class="section-subtitle">Пять практик от Барбары Оакли</p>
 				<div class="cards">
 					<div class="cards__item">
-						<img class="cards__image" alt="attention" src="./images_sprint-2/cards-attention.png">
-						<p class="cards__title">Два вида внимания</p>
+						<img class="cards__image" alt="внимание" src="./images/cards-attention.png">
+						<h2 class="cards__title">Два вида внимания</h2>
 						<p class="cards__description">Глубокие знания возникают если чередовать сфокусированное и рассеяное мышление.</p>
 					</div>
 					<div class="cards__item cards__item_center">
-						<img class="cards__image" alt="recall" src="./images_sprint-2/cards-recall.png">
-						<p class="cards__title">Recall</p>
+						<img class="cards__image" alt=вспоминай src="./images/cards-recall.png">
+						<h2 class="cards__title">Recall</h2>
 						<p class="cards__description">Вспоминайте изученное - это позволит соединить разрозненные порции памяти.</p>
 					</div>
 					<div class="cards__item">
-						<img class="cards__image" alt="interliving" src="./images_sprint-2/cards-interliving.png">
-						<p class="cards__title">Интерливинг</p>
+						<img class="cards__image" alt="Интерливинг" src="./images/cards-interliving.png">
+						<h2 class="cards__title">Интерливинг</h2>
 						<p class="cards__description">Изучайте несколько навыков одновременно друг от друга.</p>
 					</div>
 					<div class="cards__item">
-						<img class="cards__image" alt="question" src="./images_sprint-2/cards-question.png">
-						<p class="cards__title">Вопросы</p>
+						<img class="cards__image" alt="вопросы" src="./images/cards-question.png">
+						<h2 class="cards__title">Вопросы</h2>
 						<p class="cards__description">Слушая преподвателя, придумайте хороший вопрос, который вас действительно волнует.</p>
 					</div>
 					<div class="cards__item cards__item_center">
-						<img class="cards__image" alt="competence" src="./images_sprint-2/cards-competence.png">
-						<p class="cards__title">Иллюзия компетентности</p>
+						<img class="cards__image" alt="компетентность" src="./images/cards-competence.png">
+						<h2 class="cards__title">Иллюзия компетентности</h2>
 						<p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
 					</div>
 				</div>
@@ -62,8 +62,8 @@
 				<h2 class="section-title">Видео на TED</h2>
 				<p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
 				<div class="video__iframes">
-					<iframe class="video__iframe_kaufman" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-					<iframe class="video__iframe_urban" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="video__iframe_kaufman" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe class="video__iframe_urban" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</section>
 			<section class="oakley">
@@ -77,7 +77,7 @@
 			<section class="feynman">
 				<h2 class="feynman__title">Метод Фейнмана</h2>
 					<h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-					<a class="feynman__link" href="#">Подробнее<span>&#10230;</span></a>
+					<a class="feynman__link" href="#">Подробнее &#10230;</a>
 			</section>
 			<section class="digits">
 				<h2 class="section-title">Цифры и факты</h2>
@@ -125,15 +125,15 @@
 					<p class="khan__quote-author">Джордж Лукас</p>
 					<p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
 					<div class="khan__book-container">
-						<img src="./images_sprint-2/khan-book.jpg" class="khan__book-pic" alt="khan_book">
-						<a href="#" class="khan__buy-link">Купить книгу <span>&#10230;</span></a>
+						<img src="./images/khan-book.jpg" class="khan__book-pic" alt="книга хана">
+						<a href="#" class="khan__buy-link">Купить книгу &#10230;</a>
 					</div>
 				</div>
 			</section>
 			<section class="kaufman">
+				<div class="kaufman__triangle rotation"></div>
 				<h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
 				<h2 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h2>
-				<img class="kaufman__image rotation" src="./images/kaufman-triangle.svg" alt="kaufman-triangle">
 				<article class="table table_theme_dark">
 					<div class="table__cell table__cell_theme_dark">
 							<h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -181,17 +181,17 @@
 				<h2 class="section-title">Полезные ресурсы</h2>
 				<p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
 				<ul class="resources__logo-zone">
-					<li><a href="https://arzamas.academy"><img src="./images_sprint-2/logo/resources-arzamas.svg" class="resources__logo" alt="arazmas"></a></li>
-					<li><a href="https://nplusonemag.com"><img src="./images_sprint-2/logo/resources-n1.svg" class="resources__logo" alt="n1"></a></li>
-					<li><a href="https://strelka.com"><img src="./images_sprint-2/logo/resources-strelka.svg" class="resources__logo" alt="strelka"></a></li>
-					<li><a href="https://polka.academy"><img src="./images_sprint-2/logo/resources-polka.svg" class="resources__logo" alt="polka"></a></li>
+					<li><a href="https://arzamas.academy"><img src="./images/logo/resources-arzamas.svg" class="resources__logo" alt="арзамас"></a></li>
+					<li><a href="https://nplusonemag.com"><img src="./images/logo/resources-n1.svg" class="resources__logo" alt="n+1"></a></li>
+					<li><a href="https://strelka.com"><img src="./images/logo/resources-strelka.svg" class="resources__logo" alt="стрелка"></a></li>
+					<li><a href="https://polka.academy"><img src="./images/logo/resources-polka.svg" class="resources__logo" alt="полка"></a></li>
 				</ul>
 			</section>
 		</main>
 			<footer class="footer">
 				<div class="footer__columns">
 					<div class="footer__column footer__column_content_copyright">
-							<img src="./images/logo_place_footer.svg" alt="logo" class="logo logo_place_footer">
+							<img src="./images/logo_place_footer.svg" alt="лого" class="logo logo_place_footer">
 							<p class="footer__author">
 							&copy; 2020. Алина Ермакова
 							</p>
@@ -207,9 +207,9 @@
 						<nav class="footer__column footer__column_content_social">
 							<h2 class="footer__column-heading">Соцсети</h2>
 								<ul class="footer__column-links">
-									<li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="fblogo">Facebook</a></li>
-									<li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="vklogo">ВКонтакте</a></li>
-									<li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="instlogo">Instagram</a></li>
+									<li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="лого фб">Facebook</a></li>
+									<li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/vk_color_white.svg" alt="лого vk">ВКонтакте</a></li>
+									<li><a href="#" class="footer__column-link"><img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="logo инстаграм">Instagram</a></li>
 								</ul>
 						</nav>
 					</div>

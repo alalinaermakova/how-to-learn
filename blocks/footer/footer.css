@@ -34,10 +34,6 @@
     font-weight: normal;
   }
 
-  .logo_place_footer {
-    margin: 0;
-  }
-
   .footer__column_content_info {
     list-style-type: none;
     display: flex;
@@ -65,7 +61,10 @@
     text-decoration: none;
     color: white;
   }
-
+  .footer__column-link:hover {
+    opacity: 0.5;
+    transition: 0.4s;
+  }
   .footer__column_content_social {
     padding-inline-start: 0;
     list-style: none;
