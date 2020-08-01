@@ -9,26 +9,3 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.section-title {
-  width: 60%;
-  padding-bottom: 20px;
-  margin: auto;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-  }
-
-  .section-subtitle {
-    width: 60%;
-    line-height: 34px;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
-    margin: auto;
-  }
-
-  .section-title_theme_dark {
-    padding-top: 90px;
-    position: relative;
-  }
