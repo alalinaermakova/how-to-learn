@@ -1,4 +1,6 @@
 @import url(./__column/footer__column.css);
+@import url(./_content/footer__column_content.css);
+@import url(./__social/footer__social-icon.css);
 .footer {
   background-color: #1f1f1f;
   padding-top: 60px;
@@ -14,10 +16,4 @@
     margin-right: auto;
     color: white;
     min-height: 250px;
-  }
-
-  .footer__social-icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
   }
