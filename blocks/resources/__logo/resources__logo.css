@@ -1,11 +1,3 @@
-.resources__logo-zone {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 80px;
-    list-style: none;
-  }
-
   .resources__logo {
     width: 270px;
     height: 38px;

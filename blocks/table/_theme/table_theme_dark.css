@@ -1,11 +1,11 @@
 .table_theme_dark {
     position: relative;
     padding-bottom: 90px;
-    color: white;    
+    color: #fff;    
   }
 
   .table__cell_theme_dark {
-    color: white;
+    color: #fff;
     width: 200px;
     margin-top: 80px;
     line-height: 1.2;
