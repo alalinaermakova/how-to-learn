@@ -4,4 +4,7 @@
     justify-content: center;
     margin-top: 80px;
     list-style: none;
+    max-width: 183px;
+    max-height: 35px;
   }
+  /*не нужно обнулять левый внутренний край*/
