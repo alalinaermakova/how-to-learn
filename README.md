@@ -41,6 +41,11 @@ Alina Ermakova
 
 
  PLANS: change flex-box to grid in _techniques_ block; add working links.
+ 
+  ---------------------------------
+  
+  link to project  https://alalinaermakova.github.io/how-to-learn/
+ 
 
 
 
