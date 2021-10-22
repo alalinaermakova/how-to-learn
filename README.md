@@ -1,8 +1,5 @@
-yandex.practikum 2nd sprint work 
-Alina Ermakova
-================================
 
-# Научиться учиться 
+# Научиться учиться / How to learn
 
 11 blocks:
 * header (uses animation and link)
@@ -40,11 +37,10 @@ Alina Ermakova
  ---------------------------------
 
 
- PLANS: change flex-box to grid in _techniques_ block; add working links.
+ PLANS: change flex-box to grid in _techniques_ block; add working links, make a responsive layout
  
   ---------------------------------
-  
-  link to project  https://alalinaermakova.github.io/how-to-learn/
+  **[Project](https://alalinaermakova.github.io/how-to-learn/)**
  
 
 
